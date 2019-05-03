@@ -207,7 +207,7 @@ if __name__ == "__main__":
 
 
     # load in spacy
-    pdps_nlp =  spacy.load('en_core_web_lg')
+    pdps_nlp =  spacy.load('en_core_web_sm')
 
     # Use conceptNet API for context data
     cn = conceptNet()
